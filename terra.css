@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Manrope:wght@200..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    font-family: lexend;
+    background-image: url(img/fundo_princ.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat round;
+    background-attachment: fixed;
+}
+header{
+    background-color: #f3d5af;
+    width: 60rem;
+    padding: 25px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px 3px #885201c5;
+    color: #292929;
+}
+nav {
+    margin: 25px;
+    background-color: #292929;
+    overflow: hidden;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+}
+nav a {
+    
+    float: left;
+    display: block;
+    color: #f3d5af;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+  
+    background-color: #F6E652;
+    color: #613f00;
+}
+main .cartao:hover{
+    scale: 1.05;
+}
+main{
+    padding: 25px;
+  
+}
+.listagem{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.cartao{
+   
+    background-color: #38291a;
+    color: #ffffff;
+    width: 300px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+.cartao:hover{
+    
+    background-color: #ffbd7b;
+    color: #38291a
+}
+.gif{
+    width: 90px;
+    height: 90px;
+}
+.tipos{
+    display: flex;
+    gap: 50px;
+    padding: 8px;
+    list-style: none;
+}
+.tipo{
+    background-color: #00ad09;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+}
+.nome{
+    justify-content: space-between;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    background-color: #e6feff;
+    color: #0367c5;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 17px;
+
+}
+footer{
+    background-color: #38291a;
+    color: #ffffff;
+    padding: 40px;
+}

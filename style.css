@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Manrope:wght@200..800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+   
+    background-image: url(img/fundo_princ.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat round;
+    background-attachment: fixed;
+    font-family: lexend;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+header{
+    background-color: #f3d5af;
+    width: 50rem;
+    padding: 25px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px 3px #885201c5;
+    color: #292929;
+}
+main{
+    width: 60rem;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    color: #292929;
+    font-size: 20px;    
+}
+nav {
+    margin: 25px;
+    background-color: #292929;
+    overflow: hidden;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+nav a {
+    
+    float: left;
+    display: block;
+    color: #f3d5af;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+  
+    background-color: #F6E652;
+    color: #613f00;
+}
